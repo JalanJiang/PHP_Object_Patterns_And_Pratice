@@ -15,7 +15,7 @@
 
 ## __get()
 
-```
+```php
 <?php
 class Person
 {
@@ -41,7 +41,7 @@ echo $p->name;
 
 - 在未定义属性上调用 `isset()` 时
 
-```
+```php
 function __isset($property)
 {
     $method = "get{$property}";
@@ -56,7 +56,7 @@ function __isset($property)
     - 属性名
     - 要设定的值
 
-```
+```php
 <?php
 class Person
 {
@@ -85,7 +85,7 @@ echo $p->name = "jalan is a good guy";
 
 - 当 `unset()` 在一个未定义属性上被调用时
 
-```
+```php
 function __unset($property)
 {
     $method = "set{property}";
@@ -109,7 +109,7 @@ function __unset($property)
 - 被委托一方替原对象处理请求
 - 与继承类似，但比继承更具灵活性：委托可以在代码运行时改变使用的对象
 
-```
+```php
 class PersonWriter
 {
     function writeName(Person2 $p)

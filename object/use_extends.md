@@ -16,7 +16,7 @@ parent::__construct()
 
 要引用一个类而不是对象的方法，可以使用 `::` 而不是 `->`。
 
-```
+```php
 public function __construct($title, $playLength)
 {
     // 调用父类构造方法

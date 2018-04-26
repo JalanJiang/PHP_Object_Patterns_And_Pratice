@@ -13,7 +13,7 @@
 
 ## 定义
 
-```
+```php
 class ShopProduct
 {
     cosnt AVAILABLE = 0;

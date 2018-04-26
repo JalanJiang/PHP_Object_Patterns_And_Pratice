@@ -14,7 +14,7 @@
 
 使用 `ClassName::staticSomething`：
 
-```
+```php
 class StaticExample 
 {
     static public $aNum = 0;
@@ -34,7 +34,7 @@ StaticExample::staticExample;
 
 **`self`指向当前类，就像伪变量 `$this` 指向当前对象一样。**
 
-```
+```php
 class StaticExample 
 {
     static public $aNum = 0;
