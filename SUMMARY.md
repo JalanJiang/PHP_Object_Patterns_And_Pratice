@@ -12,4 +12,4 @@
 * 模式
     * 生成对象
         * [单例模式](mode/new/single.md)
-        
+        * [工厂方法模式](mode/new/factory.md)
