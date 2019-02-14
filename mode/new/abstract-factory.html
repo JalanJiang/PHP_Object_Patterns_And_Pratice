@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>简介 · 《深入 PHP 面向对象、模式与实践》 学习笔记</title>
+        <title>抽象工厂模式 · 《深入 PHP 面向对象、模式与实践》 学习笔记</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -12,32 +12,32 @@
         
         
     
-    <link rel="stylesheet" href="gitbook/style.css">
+    <link rel="stylesheet" href="../../gitbook/style.css">
 
     
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-disqus/plugin.css">
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-disqus/plugin.css">
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-prism/prism-okaidia.css">
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism-okaidia.css">
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-theme-comscore/test.css">
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-theme-comscore/test.css">
                 
             
         
@@ -66,10 +66,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    
+    <link rel="prev" href="factory.html" />
     
 
     <style>
@@ -118,9 +120,9 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="../../">
             
-                <a href="./">
+                <a href="../../">
             
                     
                         <b>1.1.</b>
@@ -180,9 +182,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1.1" data-path="object/use_extends.html">
+        <li class="chapter " data-level="1.3.1.1" data-path="../../object/use_extends.html">
             
-                <a href="object/use_extends.html">
+                <a href="../../object/use_extends.html">
             
                     
                         <b>1.3.1.1.</b>
@@ -216,9 +218,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.2.1" data-path="advanced/static.html">
+        <li class="chapter " data-level="1.3.2.1" data-path="../../advanced/static.html">
             
-                <a href="advanced/static.html">
+                <a href="../../advanced/static.html">
             
                     
                         <b>1.3.2.1.</b>
@@ -231,9 +233,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.2.2" data-path="advanced/const.html">
+        <li class="chapter " data-level="1.3.2.2" data-path="../../advanced/const.html">
             
-                <a href="advanced/const.html">
+                <a href="../../advanced/const.html">
             
                     
                         <b>1.3.2.2.</b>
@@ -246,9 +248,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.2.3" data-path="advanced/interceptor.html">
+        <li class="chapter " data-level="1.3.2.3" data-path="../../advanced/interceptor.html">
             
-                <a href="advanced/interceptor.html">
+                <a href="../../advanced/interceptor.html">
             
                     
                         <b>1.3.2.3.</b>
@@ -303,9 +305,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1.1" data-path="mode/new/single.html">
+        <li class="chapter " data-level="1.4.1.1" data-path="single.html">
             
-                <a href="mode/new/single.html">
+                <a href="single.html">
             
                     
                         <b>1.4.1.1.</b>
@@ -318,9 +320,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.1.2" data-path="mode/new/factory.html">
+        <li class="chapter " data-level="1.4.1.2" data-path="factory.html">
             
-                <a href="mode/new/factory.html">
+                <a href="factory.html">
             
                     
                         <b>1.4.1.2.</b>
@@ -333,9 +335,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.1.3" data-path="mode/new/abstract-factory.html">
+        <li class="chapter active" data-level="1.4.1.3" data-path="abstract-factory.html">
             
-                <a href="mode/new/abstract-factory.html">
+                <a href="abstract-factory.html">
             
                     
                         <b>1.4.1.3.</b>
@@ -388,7 +390,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >简介</a>
+        <a href="../.." >抽象工厂模式</a>
     </h1>
 </div>
 
@@ -403,27 +405,65 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p align="center"><img width="300px" src="https://7n.w3cschool.cn/attachments/image/20160226/1456455865582168.png"></p>
-
-<h2 id="php-pattern-learning-notes">PHP Pattern Learning Notes</h2>
-<p align="center"><img width="400px" src="https://img1.doubanio.com/view/subject/l/public/s6850848.jpg"></p>
-
+                                <h1 id="&#x62BD;&#x8C61;&#x5DE5;&#x5382;&#x6A21;&#x5F0F;">&#x62BD;&#x8C61;&#x5DE5;&#x5382;&#x6A21;&#x5F0F;</h1>
+<h2 id="&#x4E0E;&#x5DE5;&#x5382;&#x65B9;&#x6CD5;&#x6A21;&#x5F0F;&#x7684;&#x533A;&#x522B;">&#x4E0E;&#x5DE5;&#x5382;&#x65B9;&#x6CD5;&#x6A21;&#x5F0F;&#x7684;&#x533A;&#x522B;</h2>
 <ul>
-<li><a href="https://book.douban.com/subject/6559267/" target="_blank">&#x300A;&#x6DF1;&#x5165; PHP &#x9762;&#x5411;&#x5BF9;&#x8C61;&#x3001;&#x6A21;&#x5F0F;&#x4E0E;&#x5B9E;&#x8DF5;&#x300B;</a>&#x5B66;&#x4E60;&#x7B14;&#x8BB0;&#x4E0E;&#x603B;&#x7ED3;</li>
-<li>&#x5728;&#x7EBF;&#x9605;&#x8BFB;&#xFF1A;<a href="http://jalan.space/php-patterns-notes/" target="_blank">http://jalan.space/php-patterns-notes/</a></li>
+<li>&#x5DE5;&#x5382;&#x65B9;&#x6CD5;&#x6A21;&#x5F0F;&#x4E2D;<ul>
+<li>&#x5177;&#x4F53;&#x5DE5;&#x5382;&#x8D1F;&#x8D23;&#x751F;&#x4EA7;&#x5177;&#x4F53;&#x7684;&#x4EA7;&#x54C1;</li>
+<li>&#x4E00;&#x4E2A;&#x5177;&#x4F53;&#x5DE5;&#x5382;&#x4E2D;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x5DE5;&#x5382;&#x65B9;&#x6CD5;&#x6216;&#x8005;&#x4E00;&#x7EC4;&#x91CD;&#x8F7D;&#x5DE5;&#x5382;&#x65B9;&#x6CD5;</li>
 </ul>
-<h2 id="built-with">Built With</h2>
-<ul>
-<li><a href="https://www.gitbook.com/?t=7" target="_blank">Gitbook</a></li>
+</li>
+<li>&#x62BD;&#x8C61;&#x5DE5;&#x5382;&#x6A21;&#x5F0F;<ul>
+<li>&#x4E00;&#x4E2A;&#x5DE5;&#x5382;&#x53EF;&#x4EE5;&#x63D0;&#x4F9B;&#x591A;&#x4E2A;&#x4EA7;&#x54C1;&#x5BF9;&#x8C61;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x5355;&#x4E00;&#x7684;&#x4EA7;&#x54C1;&#x5BF9;&#x8C61;</li>
 </ul>
-<h2 id="learning-list">Learning List</h2>
-<h3 id="design-patterns">Design Patterns</h3>
+</li>
+</ul>
+<h2 id="&#x5B9E;&#x73B0;">&#x5B9E;&#x73B0;</h2>
+<pre class="language-"><code><span class="token prolog">&lt;?php
+// &#x62BD;&#x8C61;&#x5DE5;&#x5382;
+abstract class CommsManager
+{
+    const APPT    = 1;
+    const TTD     = 2;
+    const CONTACT = 3;
+
+    abstract function getHeaderText();
+    abstract function make($flag_int);
+    abstract function getFooterText();
+}
+
+// &#x5177;&#x4F53;&#x7684;&#x5DE5;&#x5382;
+class BloggsCommsManager extends CommsManager
+{
+    function getHeaderText()
+    {
+        return &quot;BloggsCal header\n&quot;;
+    }
+
+    function make($flag_int)
+    {
+        switch ($flag_int) {
+            case self::APPT:
+                return new BloggsApptEncoder();
+            case self:TTD:
+                return new BloggsContactEncoder();
+            case self:TTD:
+                return new BloggsTtdEncoder();
+        }
+    }
+
+    function getFotterText()
+    {
+        return &quot;BloggsCal fotter\n&quot;;
+    }
+}
+?&gt;</span>
+</code></pre><h2 id="&#x53C2;&#x8003;&#x8D44;&#x6599;">&#x53C2;&#x8003;&#x8D44;&#x6599;</h2>
 <ul>
-<li>[x] &#x5355;&#x4F8B;&#x6A21;&#x5F0F;</li>
-<li>[x] &#x5DE5;&#x5382;&#x65B9;&#x6CD5;&#x6A21;&#x5F0F; </li>
+<li><a href="https://design-patterns.readthedocs.io/zh_CN/latest/creational_patterns/abstract_factory.html" target="_blank">&#x62BD;&#x8C61;&#x5DE5;&#x5382;&#x6A21;&#x5F0F;(Abstract Factory)</a> </li>
 </ul>
 <footer class="page-footer"><span class="copyright">JalanJiang.&#x6C5F;&#x5B50;&#x6291; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2019-02-14 10:28:54
+2019-02-14 10:54:00
 </span></footer>
                                 
                                 </section>
@@ -451,6 +491,10 @@
 
             
                 
+                <a href="factory.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 工厂方法模式">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
                 
             
         
@@ -459,57 +503,57 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"简介","level":"1.1","depth":1,"next":{"title":"介绍","level":"1.2","depth":1,"ref":"","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","disqus","prism","-highlight","baidu","tbfed-pagefooter","github-buttons"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"JalanJiang.江子抑","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"disqus":{"useIdentifier":false,"shortName":"jalanjiang"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia","family":"serif","size":4},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"JalanJiang","repo":"Notes-On-Linux-Shell-Scripting-Cookbook","type":"star","size":"small"}]},"baidu":{"token":"c47c7dbbbbb8b1bd7729048f358cd896"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"JalanJiang.江子抑 <jjy@meitu.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"《深入 PHP 面向对象、模式与实践》 学习笔记","links":{"sidebar":{"我的博客":"http://jalan.space"},"sharing":{"google":null,"facebook":null,"twitter":null,"weibo":null,"all":null}},"gitbook":"*","description":"《深入 PHP 面向对象、模式与实践》 学习笔记","extension":""},"file":{"path":"README.md","mtime":"2019-02-14T02:28:54.829Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-14T02:54:25.123Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"抽象工厂模式","level":"1.4.1.3","depth":3,"previous":{"title":"工厂方法模式","level":"1.4.1.2","depth":3,"path":"mode/new/factory.md","ref":"mode/new/factory.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","disqus","prism","-highlight","baidu","tbfed-pagefooter","github-buttons"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"JalanJiang.江子抑","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"disqus":{"useIdentifier":false,"shortName":"jalanjiang"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia","family":"serif","size":4},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"JalanJiang","repo":"Notes-On-Linux-Shell-Scripting-Cookbook","type":"star","size":"small"}]},"baidu":{"token":"c47c7dbbbbb8b1bd7729048f358cd896"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"JalanJiang.江子抑 <jjy@meitu.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"《深入 PHP 面向对象、模式与实践》 学习笔记","links":{"sidebar":{"我的博客":"http://jalan.space"},"sharing":{"google":null,"facebook":null,"twitter":null,"weibo":null,"all":null}},"gitbook":"*","description":"《深入 PHP 面向对象、模式与实践》 学习笔记","extension":""},"file":{"path":"mode/new/abstract-factory.md","mtime":"2019-02-14T02:54:00.216Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-14T02:54:25.123Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
 
         
-    <script src="gitbook/gitbook.js"></script>
-    <script src="gitbook/theme.js"></script>
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
     
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        <script src="../../gitbook/gitbook-plugin-disqus/plugin.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-baidu/plugin.js"></script>
+        <script src="../../gitbook/gitbook-plugin-baidu/plugin.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        <script src="../../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
         
     
 
