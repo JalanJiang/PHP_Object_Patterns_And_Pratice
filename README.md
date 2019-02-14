@@ -2,7 +2,7 @@
 
 ## PHP Pattern Learning Notes
 
-<p align="center"><img width="400px" src="https://img1.doubanio.com/view/subject/l/public/s6850848.jpg"></p>
+<p align="center"><img width="400px" src="http://jalan.space/php-patterns-notes/img/cover.jpeg"></p>
 
 - [《深入 PHP 面向对象、模式与实践》](https://book.douban.com/subject/6559267/)学习笔记与总结
 - 在线阅读：http://jalan.space/php-patterns-notes/

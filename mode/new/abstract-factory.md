@@ -10,7 +10,7 @@
 
 ## 实现
 
-```
+```php
 <?php
 // 抽象工厂
 abstract class CommsManager
