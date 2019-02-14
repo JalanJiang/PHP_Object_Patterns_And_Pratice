@@ -13,3 +13,4 @@
     * 生成对象
         * [单例模式](mode/new/single.md)
         * [工厂方法模式](mode/new/factory.md)
+        * [抽象工厂模式](mode/new/abstract-factory.md)
