@@ -1,4 +1,4 @@
-<p align="center"><img width="300px" src="https://7n.w3cschool.cn/attachments/image/20160226/1456455865582168.png"></p>
+<p align="center"><img width="300px" src="https://www.easyicon.net/api/resizeApi.php?id=1168797&size=128"></p>
 
 ## PHP Pattern Learning Notes
 
