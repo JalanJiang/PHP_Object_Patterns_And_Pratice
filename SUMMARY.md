@@ -9,6 +9,7 @@
         * [静态方法和属性](advanced/static.md)
         * [常量属性](advanced/const.md)
         * [使用拦截器](advanced/interceptor.md)
+        * [使用 __clone() 复制对象](advanced/clone.md)
 * 模式
     * 生成对象
         * [单例模式](mode/new/single.md)

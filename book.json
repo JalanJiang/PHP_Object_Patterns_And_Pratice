@@ -14,7 +14,10 @@
     "-highlight",
     "baidu",
     "tbfed-pagefooter",
-    "github-buttons"
+    "github-buttons",
+    "page-toc-button",
+    "back-to-top-button",
+    "sitemap-general"
   ],
 
   "pluginsConfig": {
@@ -49,6 +52,9 @@
         "type": "star",
         "size": "small"
       }]
+    },
+    "sitemap-general": {
+      "prefix": "http://jalan.space/php-patterns-notes/"
     }
   },
 
