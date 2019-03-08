@@ -15,3 +15,5 @@
         * [单例模式](mode/new/single.md)
         * [工厂方法模式](mode/new/factory.md)
         * [抽象工厂模式](mode/new/abstract-factory.md)
+    * 让面向对象编程更加灵活的模式
+        * [组合模式](mode/flexible/composite.md)
