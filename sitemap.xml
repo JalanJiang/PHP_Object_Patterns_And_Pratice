@@ -9,4 +9,5 @@
 <url> <loc>http://jalan.space/php-patterns-notes/mode/new/single.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://jalan.space/php-patterns-notes/mode/new/factory.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://jalan.space/php-patterns-notes/mode/new/abstract-factory.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/php-patterns-notes/mode/flexible/composite.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>
